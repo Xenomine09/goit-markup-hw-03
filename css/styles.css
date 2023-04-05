@@ -22,6 +22,38 @@ body {
     color: var(--text);
     background-color: var(--white-background);
 }
+/* header */
+.header-section{
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.div-section{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    width: 1158px;
+    padding: 0 15px;
+}
+
+.nav-section{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-right: 76px;
+}
+.list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.image{
+    display: block;
+}
 
 .link {
     font-family: 'Raleway', sans-serif;
@@ -95,10 +127,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.list {
-    list-style: none;
+    padding: 24px 0;
 }
 
 .contact-nav {
