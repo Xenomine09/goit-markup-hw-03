@@ -64,10 +64,26 @@ body {
     max-width: 496px;
 }
 
+.our-goals{
+    padding: 120px 0;
+}
+
 .list {
     list-style: none;
+}
+
+.li-main-list{
+    width: calc((100%-72px)/4);
+}
+
+.header-list{
     display: flex;
     gap: 40px;
+}
+
+.main-list{
+    display: flex;
+    grid-area: 24px;
 }
 
 .image{
@@ -191,6 +207,10 @@ body {
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+}
+
+.main-sub{
+    margin-bottom: 8px;
 }
 
 .subtitle{
