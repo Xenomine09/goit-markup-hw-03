@@ -73,7 +73,7 @@ body {
 }
 
 .li-main-list{
-    width: calc((100%-72px)/4);
+    width: calc((100% - 72px) / 4);
 }
 
 .header-list{
@@ -83,7 +83,7 @@ body {
 
 .main-list{
     display: flex;
-    grid-area: 24px;
+    gap: 24px;
 }
 
 .image{
