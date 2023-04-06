@@ -72,6 +72,10 @@ body {
   list-style: none;
 }
 
+.our-duty {
+  padding-bottom: 120px;
+}
+
 h1,
 h2,
 h3,
@@ -99,7 +103,7 @@ li {
   flex-basis: calc((100% - 72px) / 4);
 }
 
-.features-description {
+.list-description {
   display: flex;
   gap: 24px;
 }
@@ -107,6 +111,10 @@ li {
 .header-list {
   display: flex;
   gap: 40px;
+}
+
+.duty-list {
+  width: calc((100%-48px) / 3);
 }
 
 .image {
@@ -242,6 +250,7 @@ li {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 
 .our-team {
