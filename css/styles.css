@@ -279,11 +279,15 @@ li {
 .footer {
   background-color: #2e2f42;
 }
-
+.footer-logo{
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .logo-studio-white {
   color: var(--light);
 }
 
 .footer-text {
   color: var(--light);
+  max-width: 264px;
 }
