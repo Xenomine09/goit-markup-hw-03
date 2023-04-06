@@ -46,7 +46,7 @@ body {
 .logo {
   margin-right: 76px;
 }
-/* header */
+/* header end */
 
 /* main */
 
@@ -68,12 +68,16 @@ body {
   padding: 120px 0;
 }
 
-.list {
-  list-style: none;
-}
-
 .our-duty {
   padding-bottom: 120px;
+}
+/* main end */
+
+/* reset */
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -81,17 +85,9 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin: 0;
-  font-weight: normal;
-  font-size: inherit;
-  line-height: inherit;
-}
-
-ul,
-ol {
-  margin: 0;
-  padding: 0;
 }
 
 li {
@@ -99,6 +95,12 @@ li {
   padding: 0;
 }
 
+button {
+  font-family: inherit;
+  color: currentColor;
+  cursor: pointer;
+}
+/* reset end */
 .features-list {
   flex-basis: calc((100% - 72px) / 4);
 }
@@ -117,7 +119,7 @@ li {
   width: calc((100%-48px) / 3);
 }
 
-.hero-description{
+.hero-description {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 }
@@ -266,7 +268,7 @@ li {
   padding: 120px 0;
 }
 
-.hero-p-description{
+.hero-p-description {
   font-size: 16px;
   text-align: center;
 }
@@ -280,7 +282,7 @@ li {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-logo{
+.footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
