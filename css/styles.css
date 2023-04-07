@@ -75,6 +75,7 @@ body {
 
 /* reset */
 .list {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -89,10 +90,9 @@ h6,
 p {
   margin: 0;
 }
-
-li {
+ul {
   margin: 0;
-  padding: 0;
+  padding-left: 0;
 }
 
 button {
@@ -123,11 +123,11 @@ button {
 }
 
 .portfolio-list-item {
-  background-color: #ffffff;
-  width: calc((100%-48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
+  block-size: 421px;
 }
 
-.portfolio-images-description{
+.portfolio-images-description {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
@@ -159,6 +159,7 @@ button {
 
 .image {
   display: block;
+  width: 100%;
 }
 
 .link {
@@ -283,7 +284,12 @@ button {
   font-size: 20px;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  text-align: center;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.second-subtitle.portfolio {
+  font-family: 'Roboto';
   margin-bottom: 8px;
 }
 
