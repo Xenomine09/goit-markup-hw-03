@@ -26,9 +26,11 @@ body {
 .container {
   width: 1158px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* header */
+
 .header-section {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -36,6 +38,7 @@ body {
 .div-section {
   display: flex;
   align-items: center;
+  height: 72px;
 }
 
 .nav-section {
@@ -53,9 +56,11 @@ body {
 .hero-section {
   background-color: #2e2f42;
   padding: 188px 0;
+  text-align: center;
 }
 
 .main-title {
+  margin: 0 auto 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -109,8 +114,10 @@ button {
 /* portfolio main */
 
 .buttons-section {
-  padding: 96px 120px;
+  padding: 96px 0 120px;
 }
+
+
 
 .portfolio-buttons-list {
   display: flex;
@@ -177,10 +184,15 @@ button {
   letter-spacing: 0.03em;
 }
 
-.link-two {
-  line-height: 1.5;
+.product-p-description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 0.02em;
   color: #434455;
+  text-transform: capitalize;
 }
 
 .link:hover {
@@ -211,6 +223,11 @@ button {
 
 .address {
   font-style: normal;
+  margin-left: auto;
+}
+
+.contact-nav:hover {
+  color: #404bbf;
 }
 
 .logo-studio-black {
@@ -244,7 +261,7 @@ button {
 
 .hidden {
   visibility: hidden;
-  letter-spacing: 0.02em;
+  display: none;
 }
 
 .button {
@@ -262,24 +279,28 @@ button {
 }
 
 .button-order {
+  display: block;
+  min-width: 169px;
+  height: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white-text);
+  background-color: var(--primary-brand);
   cursor: pointer;
-  display: block;
-  min-width: 169px;
-  height: 56px;
+  padding: 16px 32px;
   border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin: 0 auto;
 }
 
 .list-item {
   background-color: #ffffff;
-  width: calc((100%-72px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .second-subtitle {
@@ -293,7 +314,7 @@ button {
 }
 
 .second-subtitle.portfolio {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   margin-bottom: 8px;
 }
 
